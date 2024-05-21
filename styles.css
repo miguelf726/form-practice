@@ -129,7 +129,9 @@ body {
     margin-bottom: 20px;
   }
   .form-row input[type="text"],
-  .form-row input[type="email"] {
+  .form-row input[type="email"],
+  .form-row select,
+  .form-row textarea {
     width: 250px;
     height: initial;
   }
@@ -150,5 +152,9 @@ body {
   }
   .legacy-form-row legend {
     float: left;
+  }
+
+  .form-row .instructions{
+    margin-left: 120px;
   }
 }
